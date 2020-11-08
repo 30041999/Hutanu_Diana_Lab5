@@ -35,8 +35,8 @@
         <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Height="30" Margin="462,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="297" IsEnabled="False" Text="{Binding Path=Phonenum}"/>
         <TextBox x:Name="txtSubscriber" HorizontalAlignment="Left" Height="32" Margin="462,356,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="297" IsEnabled="False" Text="{Binding Path=Subscriber}"/>
         <Label x:Name="lblContractvalue" Content="Contract value" HorizontalAlignment="Left" Height="30" Margin="292,461,0,0" VerticalAlignment="Top" Width="108"/>
-        <TextBox x:Name="txtContractvalue" HorizontalAlignment="Left" Height="30" Margin="457,461,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302"/>
-        <TextBox x:Name="txtContractdate" HorizontalAlignment="Left" Height="26" Margin="457,519,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302"/>
+        <TextBox x:Name="txtContractvalue" HorizontalAlignment="Left" Height="30" Margin="457,461,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Text="{Binding Path=Contractvalue}"/>
+        <TextBox x:Name="txtContractdate" HorizontalAlignment="Left" Height="26" Margin="457,519,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Text="{Binding Path=Contractdate}"/>
         <Label x:Name="lblContractdate" Content="Contract date" HorizontalAlignment="Left" Height="26" Margin="292,519,0,0" VerticalAlignment="Top" Width="108"/>
 
     </Grid>
